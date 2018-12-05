@@ -1,11 +1,7 @@
 package sample;
 
-import javafx.animation.Transition;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.Group;
 import javafx.scene.Parent;
-import javafx.scene.paint.Color;
 
 import java.io.*;
 
@@ -15,16 +11,16 @@ public  abstract class AbstractRecord implements Serializable{
 
         ///A REMODIFIER CE N'EST PAS ENCORE FINI
        // Parent parent;
-        if(abstractRecord instanceof TransitionRecord){
-            ObservableList<ShapeTransition> list;
-            TransitionRecord transitionRecord =(TransitionRecord)abstractRecord;
-            list =TransitionRecord.transformFromRecord(transitionRecord);
-            return new TransitionAnimation(list,x,y);
+        if(abstractRecord instanceof sample.TransitionRecord){
+            ObservableList<sample.ShapeTransition> list;
+            sample.TransitionRecord transitionRecord =(sample.TransitionRecord)abstractRecord;
+            list = sample.TransitionRecord.transformFromRecord(transitionRecord);
+            return new sample.TransitionAnimation(list,x,y);
 
         }else{
-            PathRecord pathRecord = (PathRecord)abstractRecord;
-            ObservableList<PathShape> list = PathRecord.transfomFromRecord(pathRecord);
-            PathAnimation pathAnimation = new PathAnimation(list,x,y);
+            sample.PathRecord pathRecord = (sample.PathRecord)abstractRecord;
+            ObservableList<sample.PathShape> list = sample.PathRecord.transfomFromRecord(pathRecord);
+            sample.PathAnimation pathAnimation = new sample.PathAnimation(list,x,y);
             return pathAnimation;
         }
 
