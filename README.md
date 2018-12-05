@@ -1,2 +1,2 @@
 # Polanimate
-A desktop app to help midlle school student learn basic shape movments (rotation, scaling, translation). 
+A desktop app to help middle school students learn basic shape movements (rotation, scaling, translation).
