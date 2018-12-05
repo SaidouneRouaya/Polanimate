@@ -1,4 +1,4 @@
-package sample;
+package Entities;
 
 import com.sun.glass.ui.Cursor;
 import javafx.animation.KeyFrame;

@@ -13,7 +13,7 @@
                <children>
                   <ImageView fitHeight="190.0" fitWidth="600.0">
                      <image>
-                        <Image url="@Splash.png" />
+                        <Image url="@Pictures/Splash.png" />
                      </image>
                   </ImageView>
                   <JFXProgressBar layoutY="139.0" maxHeight="200.0" maxWidth="20.0" minHeight="20.0" prefHeight="20.0" prefWidth="600.0" styleClass="custom-jfx-progress-bar-stroke" stylesheets="@Ui.css" />

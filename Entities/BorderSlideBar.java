@@ -1,4 +1,4 @@
-package sample;
+package Entities;
 
 import javafx.animation.Animation;
 import javafx.animation.Transition;

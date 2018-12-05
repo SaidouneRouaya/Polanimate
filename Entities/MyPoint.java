@@ -1,4 +1,4 @@
-package sample;
+package Entities;
 
 import java.io.Serializable;
 

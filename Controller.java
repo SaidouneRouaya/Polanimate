@@ -552,10 +552,10 @@ if (Cpro !=null) {
         y.setTextFill(Color.WHITE);
 
         Label labelLeft = new Label("Left");
-        Image imageOk = new Image(getClass().getResourceAsStream("arrows.png"));
+        Image imageOk = new Image(getClass().getResourceAsStream("Pictures/arrows.png"));
          rot = new JFXButton("", new ImageView(imageOk));
 
-        Image im = new Image(getClass().getResourceAsStream("scale.png"));
+        Image im = new Image(getClass().getResourceAsStream("Pictures/scale.png"));
         sc = new JFXButton("",new ImageView(im));
 Lslider.setShowTickLabels(true);
         Lslider1.setShowTickMarks(true);
@@ -823,7 +823,7 @@ if (personne.getType().equals("ens"))
         stage.setTitle("inserer une forme");
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.initOwner(inserer.getScene().getWindow());
-        Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+        Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
         stage.getIcons().add(applicationIcon);
 
         stage.setResizable(false);
@@ -1137,7 +1137,7 @@ if (personne.getType().equals("ens"))
 
         stage.setScene(new Scene(stage2));
         stage.setTitle("inserer une forme");
-        Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+        Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
         stage.getIcons().add(applicationIcon);
         stage.setResizable(false);
         stage.initModality(Modality.APPLICATION_MODAL);
@@ -1338,7 +1338,7 @@ if (personne.getType().equals("ens"))
 
          Parent root = FXMLLoader.load(getClass().getResource("Choix.fxml"));
          primaryStage.setScene(new Scene(root));
-         Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+         Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
          primaryStage.getIcons().add(applicationIcon);
          primaryStage.setTitle("choix");
          primaryStage.setWidth(600);
@@ -1367,7 +1367,7 @@ if (Chx !=null) {
 
         Scene scc = new Scene(stage2);
         stage.setScene(scc);
-        Image applictionIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+        Image applictionIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
         stage.getIcons().add(applicationIcon);
         stage.setTitle("mode transition");
         stage.setResizable(false);
@@ -1487,7 +1487,7 @@ public void ins(){
 
             stage.setScene(new Scene(root));
             stage.initModality(Modality.APPLICATION_MODAL);
-            Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+            Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
             stage.getIcons().add(applicationIcon);
             stage.setTitle("s'inscrire");
             stage.setResizable(false);
@@ -1553,7 +1553,7 @@ public void ins(){
             stage.close();
             Stage stage1 = new Stage();
             stage1.setScene(new Scene(root));
-            Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+            Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
             stage1.getIcons().add(applicationIcon);
             stage1.setTitle("se connecter");
             stage1.setResizable(false);
@@ -1594,7 +1594,7 @@ public void One()
  }
 
     public void One2(){
-        Image ima = new Image(getClass().getResourceAsStream("C3.png"));
+        Image ima = new Image(getClass().getResourceAsStream("Pictures/C3.png"));
         im2.setImage(ima);
         im2.setOpacity(1);
         im2.setCursor(Cursor.HAND);
@@ -1602,13 +1602,13 @@ public void One()
 
     public void One3()
     {
-        Image ima = new Image(getClass().getResourceAsStream("2.PNG"));
+        Image ima = new Image(getClass().getResourceAsStream("Pictures/2.PNG"));
         im2.setImage(ima);
         im2.setOpacity(0.4);
 
     }
     public void two2(){
-        Image ima1 = new Image(getClass().getResourceAsStream("N1.png"));
+        Image ima1 = new Image(getClass().getResourceAsStream("Pictures/N1.png"));
         im1.setImage(ima1);
         im1.setOpacity(1);
         im1.setCursor(Cursor.HAND);
@@ -1626,7 +1626,7 @@ public void One()
 
     public void two3()
     {
-        Image ima1 = new Image(getClass().getResourceAsStream("1.png"));
+        Image ima1 = new Image(getClass().getResourceAsStream("Pictures/1.png"));
         im1.setImage(ima1);
         im1.setOpacity(0.4);
 
@@ -1660,7 +1660,7 @@ public void One()
         Scene scc = new Scene(stage2);
         Stage stage = new Stage();
         stage.setScene(scc);
-        Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+        Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
         stage.getIcons().add(applicationIcon);
         stage.setTitle("mode chemin");
         stage.setResizable(false);
@@ -1769,7 +1769,7 @@ public void One()
         Stage stage3=(Stage) getPlay.getScene().getWindow();
         Scene scc = new Scene(stage2);
         Stage stage = new Stage();
-        Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+        Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
         stage.getIcons().add(applicationIcon);
         stage.setTitle("mode transition");
         stage.setResizable(false);
@@ -1877,7 +1877,7 @@ public void One()
                                 transition = false;
                                 Stage stage4 = (Stage) Play.getScene().getWindow();
                                 stage4.close();
-                                Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+                                Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
                                 stage.getIcons().add(applicationIcon);
                                 stage.setTitle("mode chemin");
                                 stage.setResizable(false);
@@ -1971,7 +1971,7 @@ public void One()
                                 Stage stage4 = (Stage) getPlay.getScene().getWindow();
                                 stage4.close();
                            //     System.out.println(pnstk.getChildren());
-                                Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+                                Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
                                 stage.getIcons().add(applicationIcon);
                                 stage.setTitle("mode transition");
                                 stage.setResizable(false);
@@ -2075,7 +2075,7 @@ public void One()
                                     transition = false;
                                     Stage stage4 = (Stage) Play.getScene().getWindow();
                                     stage4.close();
-                                    Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+                                    Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
                                     stage.getIcons().add(applicationIcon);
                                     stage.setTitle("mode chemin");
                                     stage.setResizable(false);
@@ -2161,7 +2161,7 @@ public void One()
                                     ((TransitionAnimation) parent).setSlider(controller.sli);
                                     Scene scc = new Scene(stage2);
                                     stage.setScene(scc);
-                                    Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+                                    Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
                                     stage.getIcons().add(applicationIcon);
                                     stage.setTitle("mode transition");
                                     transition = true;
@@ -2235,7 +2235,7 @@ public void One()
             stage.setTitle("à propos");
             stage.setWidth(500);
             stage.setHeight(180);
-            Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+            Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
             stage.getIcons().add(applicationIcon);
             stage.initModality(Modality.APPLICATION_MODAL);
             stage.setResizable(false);

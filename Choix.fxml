@@ -8,12 +8,12 @@
    <children>
       <ImageView fx:id="im1" fitHeight="400.0" fitWidth="600.0" layoutX="-2.0" layoutY="-1.0" onMouseClicked="#two" onMouseEntered="#two2" onMouseExited="#two3" opacity="0.4">
          <image>
-            <Image url="@1.png" />
+            <Image url="@Pictures/1.png" />
          </image>
       </ImageView>
       <ImageView fx:id="im2" fitHeight="398.0" fitWidth="598.0" layoutY="2.0" onMouseClicked="#One" onMouseEntered="#One2" onMouseExited="#One3" opacity="0.4">
          <image>
-            <Image url="@2.PNG" />
+            <Image url="@Pictures/2.PNG" />
          </image>
       </ImageView>
    </children>

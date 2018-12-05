@@ -58,7 +58,7 @@ public class DrawPath extends Group implements Drawable{
 
         });
         try {
-            Image image = new Image(getClass().getResource("tool.png").toExternalForm());
+            Image image = new Image(getClass().getResource("Pictures/tool.png").toExternalForm());
             this.setCursor(new ImageCursor(image));
         }catch (Exception e){
             e.printStackTrace();

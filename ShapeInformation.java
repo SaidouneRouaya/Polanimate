@@ -8,7 +8,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.shape.Shape;
 import javafx.stage.Stage;
-import sample.MyShape;
 
 import java.io.Serializable;
 

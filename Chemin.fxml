@@ -18,7 +18,7 @@
                     <graphic>
                         <ImageView fitHeight="20.0" fitWidth="20.0" preserveRatio="true">
                             <image>
-                                <Image url="@flag-map-marker.png" />
+                                <Image url="@Pictures/flag-map-marker.png" />
                             </image>
                         </ImageView>
                     </graphic>
@@ -57,7 +57,7 @@
                                     <graphic>
                                         <ImageView fitHeight="15.0" fitWidth="25.0">
                                             <image>
-                                                <Image url="@Hamburger.png" />
+                                                <Image url="@Pictures/Hamburger.png" />
                                             </image>
                                         </ImageView>
                                     </graphic></Button>
@@ -65,7 +65,7 @@
                                     <graphic>
                                         <ImageView fx:id="play" fitHeight="20.0" fitWidth="20.0">
                                             <image>
-                                                <Image url="@music-player-play.png" />
+                                                <Image url="@Pictures/music-player-play.png" />
                                             </image>
                                         </ImageView>
                                     </graphic>
@@ -74,7 +74,7 @@
                                     <graphic>
                                         <ImageView fitHeight="20.0" fitWidth="20.0">
                                             <image>
-                                                <Image url="@Add.png" />
+                                                <Image url="@Pictures/Add.png" />
                                             </image>
                                         </ImageView>
                                     </graphic></JFXButton>
@@ -82,7 +82,7 @@
                            <graphic>
                               <ImageView fitHeight="20.0" fitWidth="20.0">
                                  <image>
-                                    <Image url="@technology.png" />
+                                    <Image url="@Pictures/technology.png" />
                                  </image>
                               </ImageView>
                            </graphic></JFXButton>
@@ -92,7 +92,7 @@
                                     <graphic>
                                         <ImageView fitHeight="21.0" fitWidth="21.0">
                                             <image>
-                                                <Image url="@man-user.png" />
+                                                <Image url="@Pictures/man-user.png" />
                                             </image>
                                         </ImageView>
                                     </graphic>
@@ -103,7 +103,7 @@
                                     <graphic>
                                         <ImageView fitHeight="20.0" fitWidth="20.0">
                                             <image>
-                                                <Image url="@logout-sign.png" />
+                                                <Image url="@Pictures/logout-sign.png" />
                                             </image>
                                         </ImageView>
                                     </graphic></Button>

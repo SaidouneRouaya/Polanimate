@@ -17,7 +17,7 @@ Stage windows=new Stage();        static String choice;
 
         Parent root1 = FXMLLoader.load(getClass().getResource("Splash.fxml"));
         windows.setTitle("Polanimate");
-        Image applicationIcon = new Image(getClass().getResourceAsStream("Icon.png"));
+        Image applicationIcon = new Image(getClass().getResourceAsStream("Pictures/Icon.png"));
         windows.getIcons().add(applicationIcon);
         windows.setResizable(false);
         primaryStage.getIcons().add(applicationIcon);

@@ -1,6 +1,7 @@
 package sample;
 
 
+import Entities.MyColor;
 import javafx.scene.Parent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
@@ -11,8 +12,8 @@ import java.util.ArrayList;
 /**
  * Created by sol on 11/03/2016.
  */
-public class DrawShape extends Parent implements Drawable {
-    ShapeInformation shapeInformation;
+public class DrawShape extends Parent implements sample.Drawable {
+    sample.ShapeInformation shapeInformation;
     Shape shape ;
 
     public DrawShape(double x ,double y){
@@ -23,7 +24,7 @@ public class DrawShape extends Parent implements Drawable {
     }
 
 
-    public void AddShape(ShapeInfo shapeInfo){
+    public void AddShape(sample.ShapeInfo shapeInfo){
         if(shape != null){
             this.getChildren().remove(shape);
             shape = shapeInfo.getShape();
@@ -47,8 +48,8 @@ public class DrawShape extends Parent implements Drawable {
         }
     }
     @Override
-    public ShapeInfo getShapeInfo() {
-        ArrayList<ShapeInformation> shapeInformations = new ArrayList();
+    public sample.ShapeInfo getShapeInfo() {
+        ArrayList<sample.ShapeInformation> shapeInformations = new ArrayList();
         shapeInformations.add(shapeInformation);
         MyColor myColor;
         if(shape.getFill() instanceof Color){
@@ -56,7 +57,7 @@ public class DrawShape extends Parent implements Drawable {
             myColor = new MyColor(color.getRed(),color.getGreen(),color.getBlue(),shape.getOpacity());
         }else
             myColor = new MyColor(0,0,0,1);
-        ShapeInfo shapeInfo = new ShapeInfo(shape,shapeInformations,myColor);
+        sample.ShapeInfo shapeInfo = new sample.ShapeInfo(shape,shapeInformations,myColor);
 
         return shapeInfo;
     }
